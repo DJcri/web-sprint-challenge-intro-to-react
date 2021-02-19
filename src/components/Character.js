@@ -23,13 +23,13 @@ const Character = (props) => {
       <h2>{data.name}</h2>
       <div className="info-container">
         <Info className="gender">{`Gender: ${data.gender}`}</Info>
-        <Info className="birthyear">{`Birth Year: ${data.birth_year}`}</Info>
-        <Info className="eye-color">{`Eye Color: ${data.eye_color}`}</Info>
-        <Info className="hair-color">{`Hair Color: ${data.hair_color}`}</Info>
         <Info className="height">{`Height: ${data.height}cm`}</Info>
-        <Info className="homeworld">{`Home World: ${planet}`}</Info>
         <Info className="mass">{`Mass: ${data.mass}`}</Info>
         <Info className="skin-color">{`Skin Color: ${data.skin_color}`}</Info>
+        <Info className="hair-color">{`Hair Color: ${data.hair_color}`}</Info>
+        <Info className="eye-color">{`Eye Color: ${data.eye_color}`}</Info>
+        <Info className="birthyear">{`Birth Year: ${data.birth_year}`}</Info>
+        <Info className="homeworld">{`Home World: ${planet}`}</Info>
       </div>
     </CharacterCard>
   );
